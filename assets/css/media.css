@@ -1,0 +1,533 @@
+/* 321-576 x-sm 1rem=7px*/
+/* 7/16=0.4375
+0.43758*100=43.75 */
+
+
+@media screen and (max-width: 575px) {
+    html {
+        font-size: 43.75%
+    }
+
+    #hero .team {
+        right: 3rem;
+        top: 2rem;
+    }
+
+    #hero .container {
+        padding: 0 4rem;
+    }
+
+
+    #hero .main-title {
+        font-size: 4.6rem;
+    }
+
+    #hero h4 {
+        font-size: 4rem;
+    }
+
+    #hero span {
+        font-size: 3rem;
+    }
+
+    #hero .sub-title {
+        font-size: 2rem;
+    }
+
+
+    #hero a {
+        font-size: 2.7rem;
+    }
+
+
+    #hero {
+        padding: 3rem 0;
+    }
+
+    .team img {
+        display: none;
+    }
+
+    .logo-img {
+        padding: 3rem;
+    }
+
+    .BRAND {
+        text-align: center;
+    }
+
+    .productswiper .swiper-button-next {
+        right: 2rem;
+    }
+
+    .logo-deta img {
+        margin: 0 auto;
+    }
+
+    .ideas-wark {
+        width: 83%;
+        height: 80rem;
+        margin: auto;
+    }
+
+    .ideas-image {
+        width: 83%;
+        height: 80rem;
+        margin: auto;
+    }
+
+    .POOL {
+        margin: auto;
+    }
+
+    .Show {
+        order: 1;
+    }
+
+    .store {
+        padding-left: 0rem;
+        text-align: center;
+    }
+
+    footer {
+        padding: 370rem 0 0 0;
+    }
+
+    #Match .container {
+        height: 135rem;
+    }
+
+    .Reebok img {
+        width: 100%;
+    }
+
+    .HELPdeta {
+        text-align: center;
+    }
+
+    .HELPdeta img {
+        margin: auto;
+    }
+
+    .BESART-d {
+        text-align: center;
+    }
+
+    .BESART-d .Followicn {
+        justify-content: space-between;
+    }
+
+    .footer-deta h3 {
+        text-align: center;
+    }
+
+    .footer-deta h4 {
+        text-align: center;
+    }
+
+
+}
+
+
+/* 0-320 1rem=7px*/
+@media screen and (max-width: 520px) {
+    footer {
+        padding: 184rem 0 0 0;
+    }
+}
+
+
+/* 576-767 sm 1rem=7px*/
+@media screen and (min-width: 576px) {
+
+    html {
+        font-size: 43.75%
+    }
+
+    #hero .main-title {
+        font-size: 3.6rem;
+    }
+
+    #hero h4 {
+        font-size: 3.6rem;
+    }
+
+    #hero span {
+        font-size: 2.3rem;
+    }
+
+    #hero .sub-title {
+        font-size: 1rem;
+        /* max-width: 263px; */
+    }
+
+
+    #hero a {
+        font-size: 2rem;
+    }
+
+    #hero .team {
+        right: 3rem;
+    }
+
+    #hero .container {
+        padding: 0 4rem;
+    }
+
+
+    .logo-img {
+        padding: 3rem;
+    }
+
+    .logo-deta img {
+        margin: 0 auto;
+    }
+
+    #hero {
+        padding: 4rem 0;
+    }
+
+    .productswiper .swiper-button-next {
+        right: 2rem;
+    }
+
+    .ideas-wark {
+        width: 62%;
+        height: 80rem;
+        margin: auto;
+    }
+
+    .ideas-image {
+        width: 62%;
+        height: 80rem;
+        margin: auto;
+    }
+
+    .POOL {
+        margin: auto;
+    }
+
+    .Show {
+        order: 1;
+    }
+
+    .Show-deta {
+        padding: 0;
+    }
+
+    .store {
+        padding-left: 0rem;
+        text-align: center;
+    }
+
+
+    footer {
+        padding: 130rem 0 0 0;
+    }
+
+    #Match .container {
+        height: 110rem;
+    }
+
+    .HELP {
+        display: flex;
+    }
+
+
+}
+
+
+/* 768-991 md 1rem=8px*/
+@media screen and (min-width: 768px) {
+
+    html {
+        font-size: 50%;
+    }
+
+
+    #hero .main-title {
+        font-size: 3.6rem;
+    }
+
+    #hero h4 {
+        font-size: 3.6rem;
+    }
+
+    #hero span {
+        font-size: 2.3rem;
+    }
+
+    #hero .sub-title {
+        font-size: 1.2rem;
+    }
+
+
+    #hero a {
+        font-size: 1rem;
+    }
+
+
+    #hero .container {
+        padding: 0 4rem;
+    }
+
+    .logo-img {
+        margin: auto;
+    }
+
+    .logo-deta img {
+        margin: 0 auto;
+    }
+
+
+    #hero {
+        padding: 6rem 0;
+    }
+
+    .ideas-wark {
+        width: 47%;
+        height: 69rem;
+        margin: auto;
+    }
+
+    .ideas-image {
+        width: 47%;
+        height: 69rem;
+        margin: auto;
+    }
+
+    .POOL {
+        margin: auto;
+    }
+
+    .Show {
+        padding: 6.5rem 11rem 25rem 8rem;
+    }
+
+    .store {
+        /* padding-left: 40%; */
+        text-align: center;
+    }
+
+
+    footer {
+        padding: 135rem 0 0 0;
+    }
+
+    #Match .container {
+        height: 130rem;
+    }
+
+
+
+
+}
+
+
+/* 992-1199 lg 1rem=8px */
+@media screen and (min-width: 992px) {
+
+    html {
+        font-size: 50%;
+    }
+
+
+    #hero .container {
+        padding: 0 4rem;
+    }
+
+
+    #hero {
+        padding: 10rem 0;
+    }
+
+    .ideas-wark {
+        width: 100%;
+        height: 50rem;
+    }
+
+    .ideas-image {
+        width: 100%;
+        height: 50rem;
+    }
+
+    .Show {
+        padding: 6.5rem 11rem 25rem 8rem;
+    }
+
+    .store {
+        padding-left: 50%;
+        text-align: left;
+    }
+
+    #heroparty .sub-title {
+        max-width: 310px;
+    }
+
+    footer {
+        padding: 50rem 0 0 0;
+    }
+
+    #Match .container {
+        height: 70rem;
+    }
+
+
+
+
+
+}
+
+
+/* 1200-1399 xl 1rem=9px*/
+@media screen and (min-width: 1200px) {
+
+    html {
+        font-size: 56.25%;
+    }
+
+
+    .Shoes nav ul li {
+        font-size: 1rem;
+    }
+
+    #hero .main-title {
+        font-size: 4.6rem;
+    }
+
+    #hero h4 {
+        font-size: 4.6rem;
+    }
+
+    #hero span {
+        font-size: 2.5rem;
+    }
+
+    #hero .sub-title {
+        font-size: 1.7rem;
+    }
+
+
+    #hero a {
+        font-size: 2.5rem;
+    }
+
+
+
+    #hero .container {
+        padding: 0 0 0 6rem;
+    }
+
+
+    #hero {
+        padding: 10rem 0;
+    }
+
+    /* #Lauren .container {
+        max-width: 1157px;
+    } */
+
+    .productswiper .swiper-button-next {
+        right: 13rem;
+    }
+
+
+    .Show {
+        order: 0;
+    }
+
+    .Show {
+        padding: 4.5rem 0rem 9rem 4rem;
+    }
+
+
+
+}
+
+
+/* 1400-1919 xxl 10px*/
+@media screen and (min-width: 1400px) {
+
+    html {
+        font-size: 62.5%;
+    }
+
+    .Shoes nav ul li {
+        font-size: 1.2rem;
+    }
+
+    #hero .container {
+        padding: 0 0 0 6rem;
+    }
+
+
+    /* #Lauren .container {
+        max-width: 1782px;
+    } */
+
+    .Show {
+        padding: 5rem 2rem 9rem 5rem;
+    }
+
+}
+
+
+/* 1920-any 10px*/
+@media screen and (min-width: 1920px) {
+
+    .Shoes nav ul li {
+        font-size: 1.2rem;
+    }
+
+    #hero .main-title {
+        font-size: 5.6rem;
+    }
+
+    #hero h4 {
+        color: white;
+        font-size: 5.6rem;
+    }
+
+    #hero span {
+        font-size: 3rem;
+    }
+
+    #hero .sub-title {
+        font-size: 1.8rem;
+        max-width: 345px;
+    }
+
+    #hero a {
+        font-size: 1.8rem;
+    }
+
+    #hero .team {
+        right: 10rem;
+
+    }
+
+    #hero .container {
+        padding: 2rem 0 0 0;
+    }
+
+    #hero {
+        padding: 10rem 0;
+    }
+
+    #Lauren .container {
+        max-width: 1782px;
+    }
+
+    .productswiper .swiper-button-next {
+        right: 16rem;
+    }
+
+    .Show {
+        padding: 7.5rem 15rem 9rem 6rem;
+    }
+
+    .store {
+        padding-left: 82rem;
+    }
+
+}

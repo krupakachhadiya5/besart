@@ -1,0 +1,1184 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%
+}
+
+body {
+    font-family: 'Inter';
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.container {
+    max-width: 1645px;
+    padding: 0 1rem;
+    margin: 0 auto;
+}
+
+
+
+/* *******************************header********************************* */
+header {
+    background-repeat: no-repeat;
+    width: 100%;
+    position: relative;
+    z-index: 9999;
+    background-image: url(../image/Group\ 4253.png);
+}
+
+header .container {
+    max-width: 1820px;
+    padding: 0 4rem;
+    margin: 0 auto;
+}
+
+.topheader {
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0 1rem 0;
+}
+
+.topheader span {
+    font-size: 1.6rem;
+    text-align: center;
+    color: white;
+    padding: 0 0.5rem;
+}
+
+.topheader nav ul li a {
+    font-size: 1.6rem;
+    color: white;
+}
+
+.topheader i {
+    color: white;
+    padding: 0.5rem;
+}
+
+.b-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 0 0 0;
+}
+
+.b-header nav ul li {
+    display: inline-block;
+}
+
+.b-header nav ul li a {
+    color: black;
+    font-size: 1.8rem;
+}
+
+.b-header nav ul {
+    padding-left: 0rem;
+
+}
+
+/* .Shoes nav ul li{
+    display: inline-block;
+    font-size: 1.8rem;
+} */
+
+/* .heart nav ul :nth-child(4){
+  display: inline-block;
+  padding:0 0.7rem;
+} */
+
+.heart a {
+    color: black;
+    padding: 0 1.8rem;
+}
+
+/* header nav ul li a {
+    color: black;
+    padding:0 0.5rem;
+    font-size: 1.8rem;
+} */
+
+/* .Shoes{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0 1rem 0;
+} */
+
+/* .Shoes select{
+    border: none;
+    font-size: 1.8rem;
+} */
+
+/* .Shoes input{
+    width:10rem;
+    border: none;
+    font-size: 1.8rem;
+} */
+
+/* .input-i{
+    padding: 0 0.5rem;
+} */
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show>.nav-link {
+    font-size: 1.8rem;
+    margin: 0 0 0 5rem;
+}
+
+select {
+    font-size: 1.8rem;
+    border: none;
+ 
+}
+
+.me-2 {
+    font-size: 1.8rem;
+    border: none;
+}
+
+.nav-link{
+   color: #000;
+}
+
+/* ************************************************************* */
+
+/* *****************************hero******************************** */
+#hero {
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    position: relative;
+    z-index: 9999;
+    background-image: url(../image/Bg.png);
+    padding: 10rem 0;
+}
+
+#hero::before {
+    content: '';
+    background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+#hero .container {
+    position: relative;
+}
+
+
+#hero .team {
+    /* content: ''; */
+    top: 0;
+    right: 0;
+    position: absolute;
+    width: 50%;
+    height: 100%;
+}
+
+.team img {
+    width: 100%;
+}
+
+.team::before {
+    position: relative;
+}
+
+#hero .main-title {
+    color: white;
+    font-size: 5.6rem;
+}
+
+#hero .sub-title {
+    margin-top: 2rem;
+    font-size: 1.8rem;
+    color: white;
+    max-width: 734px;
+}
+
+#hero span {
+    font-size: 3rem;
+    color: white;
+    padding: 0 1rem;
+    background-color: #491E4B;
+    border-radius: 15rem;
+    margin: 1rem;
+}
+
+
+#hero a {
+    background-color: white;
+    border-radius: 3.45rem;
+    padding: 0.7rem 0.5rem 0.7rem 2.2rem;
+    margin-top: 3rem;
+    color: black;
+    font-size: 1.8rem;
+
+}
+
+#hero a i {
+    color: black;
+    margin: 1rem;
+}
+
+#hero h4 {
+    color: white;
+    font-size: 4.6rem;
+    font-family: "Architects Daughter", cursive;
+    display: inline-block;
+    text-decoration: underline;
+}
+
+.form {
+    text-align: center;
+}
+
+
+
+
+/* ************************************************************* */
+
+/* ********************************logo***************************** */
+
+#logo {
+    padding: 13rem 0 10rem 0;
+}
+
+.logo-deta {
+    justify-content: space-between;
+    text-align: center;
+}
+
+
+/* ************************************************************* */
+
+
+/* *******************************Lauren****************************** */
+
+#Lauren .container {
+    max-width: 1782px;
+    padding: 0 0rem;
+    margin-right: 0;
+}
+
+.productswiper .swiper-slide img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+    height: 500px;
+}
+
+.productswiper .swiper-button-next {
+    width: 63px;
+    height: 63px;
+    border-radius: 20%;
+    background-color: white;
+    box-shadow: 0 5px 80px 0 rgba(0, 0, 0, 0.1);
+    top: 25rem;
+    right: 16rem;
+}
+
+.productswiper .swiper-button-next::after {
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+}
+
+
+#Lauren h3 {
+    font-size: 1.8rem;
+    color: gray;
+    margin-bottom: 0;
+}
+
+#Lauren h4 {
+    font-size: 2.4rem;
+}
+
+.swiper-img {
+    margin: 0 0.5rem;
+}
+
+.swiperimg-deta {
+    padding: 3rem 0 0 0;
+    box-shadow: 0 20px 35px 0 rgba(0, 0, 0, 0.1);
+    opacity: 1;
+    position: relative;
+}
+
+.swiper-img span {
+    font-size: 1.8rem;
+    color: gray;
+}
+
+.swiper-img h5 {
+    font-size: 2.4rem;
+    color: #491E4B;
+    display: inline-block;
+}
+
+.swiperimg-deta .box {
+    height: 1.6rem;
+    width: 1.6rem;
+    background-color: black;
+    display: inline-block;
+    border-radius: 0.2rem;
+}
+
+.swiperimg-deta .box1 {
+    height: 1.6rem;
+    width: 1.6rem;
+    background-color: gray;
+    display: inline-block;
+    border-radius: 0.2rem;
+}
+
+.swiperimg-deta .box3 {
+    height: 1.6rem;
+    width: 1.6rem;
+    background-color: greenyellow;
+    display: inline-block;
+    border-radius: 0.2rem;
+}
+
+.swiperimg-deta .box4 {
+    height: 1.6rem;
+    width: 1.6rem;
+    background-color: #DDBFB7;
+    display: inline-block;
+    border-radius: 0.2rem;
+}
+
+.swiper-img:hover .swiperimg-deta {
+    opacity: 1;
+}
+
+.swiper-img:hover {
+    transform: translatey(-1rem);
+}
+
+
+.polo h6 {
+    font-size: 1.6rem;
+    color: grey;
+    display: inline-block;
+    padding: 0 2rem;
+}
+
+.polo .boxa {
+    margin: 1.5rem 0;
+}
+
+
+.polo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* ************************************************************* */
+
+/* *****************************ideas******************************** */
+#ideas {
+    padding: 15rem 0;
+}
+
+.ideas-deta h3 {
+    font-size: 8.6rem;
+    display: inline-block;
+}
+
+.ideas-deta h5 {
+    font-size: 8.6rem;
+    display: inline;
+}
+
+.ideas-deta h4 {
+    font-family: "Architects Daughter", cursive;
+    font-size: 8.6rem;
+    color: #491E4B;
+    display: inline;
+    padding: 1rem;
+    text-decoration: underline;
+}
+
+.fun nav ul li {
+    display: inline-block;
+    font-size: 1.8rem;
+
+}
+
+.fun nav ul li a {
+    color: black;
+    padding: 0 1rem 0 0;
+}
+
+.fun h5 {
+    font-size: 1.8rem;
+}
+
+.zara span {
+    font-size: 1.4rem;
+    color: #491E4B;
+    background-color: #F6F4F6;
+    padding: 0 1rem;
+    border-radius: 15rem;
+    margin: 1rem;
+    font-weight: bold;
+}
+
+.view a {
+    width: 18%;
+    background-color: #F6F4F6;
+    border-radius: 3.45rem;
+    justify-content: space-between;
+    padding: 0.7rem 0.5rem 0.7rem 2.2rem;
+    margin-top: 3rem;
+    color: #491E4B;
+    font-size: 1.8rem;
+
+}
+
+.view a i {
+    color: #491E4B;
+    margin: 1rem;
+}
+
+.fun {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0;
+    align-items: center;
+}
+
+.zara {
+    display: flex;
+    align-items: center;
+    padding: 0 2rem;
+}
+
+.ideas-deta img {
+    display: flex;
+}
+
+.ideas-wark {
+    background-image: url(../image/Photo\ 2.png);
+    width: 100%;
+    height: 50rem;
+    position: relative;
+    background-repeat: no-repeat;
+    z-index: 9999;
+}
+
+.ideas-wark::before {
+    content: '';
+    background-color: rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+
+.ideas-image {
+    background-image: url(../image/Photo\ 3.png);
+    width: 100%;
+    height: 50rem;
+    position: relative;
+    background-repeat: no-repeat;
+    z-index: 9999;
+}
+
+.ideas-image::before {
+    content: '';
+    background-color: rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.ideas-wark h3 {
+    color: white;
+    font-size: 1.8rem;
+}
+
+.ideas-wark h4 {
+    color: white;
+    font-size: 3.6rem;
+
+}
+
+
+.look a {
+    width: 18%;
+    color: white;
+    font-size: 1.8rem;
+}
+
+.look a i {
+    color: white;
+    padding: 0 0.6rem;
+}
+
+.ideas-image h3 {
+    color: white;
+    font-size: 1.8rem;
+}
+
+.ideas-image h4 {
+    color: white;
+    font-size: 3.6rem;
+
+}
+
+
+#ideas .STYLE {
+    position: absolute;
+    top: 56%;
+    left: 32%;
+}
+
+
+#ideas .styly {
+    position: absolute;
+    top: 56%;
+    left: 32%;
+}
+
+/* ************************************************************* */
+
+/* ******************************Dress******************************* */
+#Dress {
+    padding-bottom: 15rem;
+}
+
+.now-deta {
+    display: flex;
+    align-items: center;
+}
+
+.Dress {
+    margin: 3rem 0;
+    row-gap: 3rem;
+}
+
+#Dress h3 {
+    font-size: 5rem;
+}
+
+.now-deta a {
+    width: 18%;
+    background-color: #F6F4F6;
+    border-radius: 3.45rem;
+    justify-content: space-between;
+    padding: 0.7rem 0.5rem 0.7rem 2.2rem;
+    margin: 3rem;
+    color: #491E4B;
+    font-size: 1.5rem;
+}
+
+.now-deta a i {
+    color: #491E4B;
+    margin: 1rem;
+}
+
+.Medicine-deta h4 {
+    font-size: 1.8rem;
+    color: gray;
+    margin-bottom: 0;
+}
+
+.Medicine-deta h5 {
+    font-size: 1.8rem;
+}
+
+#Dress .box {
+    height: 1.6rem;
+    width: 1.6rem;
+    background-color: black;
+    display: inline-block;
+    border-radius: 0.2rem;
+}
+
+#Dress .box1 {
+    height: 1.6rem;
+    width: 1.6rem;
+    background-color: red;
+    display: inline-block;
+    border-radius: 0.2rem;
+}
+
+#Dress .box2 {
+    height: 1.6rem;
+    width: 1.6rem;
+    background-color: #545250;
+    display: inline-block;
+    border-radius: 0.2rem;
+}
+
+#Dress .box3 {
+    height: 1.6rem;
+    width: 1.6rem;
+    background-color: #534B48;
+    display: inline-block;
+    border-radius: 0.2rem;
+}
+
+#Dress .box4 {
+    height: 1.6rem;
+    width: 1.6rem;
+    background-color: #D2BC97;
+    display: inline-block;
+    border-radius: 0.2rem;
+}
+
+#Dress .box5 {
+    height: 1.6rem;
+    width: 1.6rem;
+    background-color: #744C55;
+    display: inline-block;
+    border-radius: 0.2rem;
+}
+
+#Dress .box6 {
+    height: 1.6rem;
+    width: 1.6rem;
+    background-color: #BBAEA5;
+    display: inline-block;
+    border-radius: 0.2rem;
+}
+
+#Dress .box7 {
+    height: 1.6rem;
+    width: 1.6rem;
+    background-color: #746069;
+    display: inline-block;
+    border-radius: 0.2rem;
+}
+
+#Dress .box8 {
+    height: 1.6rem;
+    width: 1.6rem;
+    background-color: #B7575B;
+    display: inline-block;
+    border-radius: 0.2rem;
+}
+
+#Dress .box9 {
+    height: 1.6rem;
+    width: 1.6rem;
+    background-color: #413E35;
+    display: inline-block;
+    border-radius: 0.2rem;
+}
+
+#Dress .box10 {
+    height: 1.6rem;
+    width: 1.6rem;
+    background-color: #DED1C9;
+    display: inline-block;
+    border-radius: 0.2rem;
+}
+
+#Dress .box11 {
+    height: 1.6rem;
+    width: 1.6rem;
+    background-color: #DBCED5;
+    display: inline-block;
+    border-radius: 0.2rem;
+}
+
+.Medicine img {
+    width: 100%;
+}
+
+.Medicine-deta {
+    padding: 3rem 0 0 0;
+}
+
+.Moda h6 {
+    font-size: 1.6rem;
+    color: grey;
+    display: inline-block;
+    padding: 0 2rem;
+}
+
+.Balmain h5 {
+    font-size: 2.4rem;
+}
+
+.Moda {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0.5rem;
+}
+
+.Show h4 {
+    font-size: 3.6rem;
+}
+
+.Show-a a {
+    width: 18%;
+    justify-content: space-between;
+    color: black;
+    font-size: 1.8rem;
+}
+
+.Show-a a i {
+    color: black;
+    margin: 1rem;
+}
+
+/* .Show-deta{
+    padding: 1rem 1rem 0 1rem;
+} */
+
+.Show-deta img {
+    width: 100%;
+}
+
+.Show {
+    border: 0.3rem solid #E5E5E5;
+    padding: 7.5rem 15rem 9rem 6rem;
+
+}
+
+/* ************************************************************* */
+
+/* *****************************heroparty******************************** */
+#heroparty {
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    position: relative;
+    z-index: 9999;
+    background-image: url(../image/Video.png);
+    padding: 15rem 0;
+
+}
+
+#heroparty::before {
+    content: '';
+    background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+#heroparty .container {
+    position: relative;
+}
+
+.store {
+    padding-left: 82rem;
+}
+
+
+#heroparty .main-title {
+    color: white;
+    font-size: 5.6rem;
+    display: inline;
+}
+
+#heroparty h5 {
+    color: white;
+    font-size: 5.6rem;
+}
+
+#heroparty .sub-title {
+    margin-top: 2rem;
+    font-size: 1.8rem;
+    color: white;
+}
+
+#heroparty a {
+    background-color: white;
+    border-radius: 3.45rem;
+    padding: 0.7rem 0.5rem 0.7rem 2.2rem;
+    margin-top: 3rem;
+    color: black;
+    font-size: 1.8rem;
+
+}
+
+#heroparty a i {
+    color: black;
+    margin: 1rem;
+}
+
+#heroparty h4 {
+    color: white;
+    font-size: 4.6rem;
+    font-family: "Architects Daughter", cursive;
+    display: inline;
+    text-decoration: underline;
+}
+
+
+/* ************************************************************* */
+
+/* * *****************************Samsoe******************************** */
+
+#Samsoe {
+    padding: 15rem 0;
+}
+
+
+#Samsoe .container {
+    max-width: 1782px;
+    padding: 0 0rem;
+    margin-right: 0;
+}
+
+#Samsoe h3 {
+    font-size: 1.8rem;
+    color: gray;
+    margin-bottom: 0;
+}
+
+#Samsoe h4 {
+    font-size: 2.4rem;
+}
+
+.Samsoe-deta {
+    padding: 3rem 0 0 0;
+    opacity: 1;
+    position: relative;
+}
+
+.swiper-img h5 {
+    font-size: 2.4rem;
+    color: black;
+    display: inline-block;
+}
+
+.Samsoe-deta .box {
+    height: 1.6rem;
+    width: 1.6rem;
+    background-color: #A8AC77;
+    display: inline-block;
+    border-radius: 0.2rem;
+}
+
+.Samsoe-deta .box1 {
+    height: 1.6rem;
+    width: 1.6rem;
+    background-color: #124760;
+    display: inline-block;
+    border-radius: 0.2rem;
+}
+
+.Samsoe-deta .box3 {
+    height: 1.6rem;
+    width: 1.6rem;
+    background-color: #E2D2CC;
+    display: inline-block;
+    border-radius: 0.2rem;
+}
+
+.Samsoe-deta .box4 {
+    height: 1.6rem;
+    width: 1.6rem;
+    background-color: #68688D;
+    display: inline-block;
+    border-radius: 0.2rem;
+}
+
+.Samsoe-deta .box5 {
+    height: 1.6rem;
+    width: 1.6rem;
+    background-color: black;
+    display: inline-block;
+    border-radius: 0.2rem;
+}
+
+.Samsoe-deta .box6 {
+    height: 1.6rem;
+    width: 1.6rem;
+    background-color: #BABFCE;
+    display: inline-block;
+    border-radius: 0.2rem;
+}
+
+
+.Miss h6 {
+    font-size: 1.6rem;
+    color: grey;
+    display: inline-block;
+    padding: 0 2rem;
+}
+
+.Miss .boxa {
+    margin: 1.5rem 0;
+}
+
+
+.Miss {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* ************************************************************* */
+
+
+/* ******************************Match******************************* */
+#Match {
+    position: relative;
+}
+
+#Match .container {
+    /* max-width: 1757px; */
+    background-color: #EEE9DC;
+    height: 70rem;
+}
+
+.Match-deta {
+    padding: 5rem;
+    max-width: 640px;
+}
+
+.Match-deta h3 {
+    font-size: 5.6rem;
+    display: inline-block;
+}
+
+.Match-deta h4 {
+    font-family: "Architects Daughter", cursive;
+    font-size: 5.6rem;
+    display: inline;
+    text-decoration: underline;
+}
+
+.Match-deta span {
+    font-size: 3rem;
+    color: white;
+    padding: 0 1rem;
+    background-color: #491E4B;
+    border-radius: 15rem;
+    margin: 1rem;
+}
+
+.Match-deta p {
+    font-size: 1.8rem;
+    max-width: 743px;
+    padding: 1rem 0;
+}
+
+.Match-deta a {
+    background-color: #491E4B;
+    border-radius: 3.45rem;
+    padding: 0.7rem 0.5rem 0.7rem 2.2rem;
+    margin-top: 3rem;
+    color: white;
+    font-size: 1.8rem;
+
+}
+
+.Match-deta a i {
+    color: white;
+    margin: 1rem;
+}
+
+.Match-img {
+    padding: 4rem 4rem 0 0;
+}
+
+.Reebok-deta h4 {
+    font-size: 1.8rem;
+    color: gray;
+    margin-bottom: 0;
+}
+
+.Reebok-deta h5 {
+    font-size: 2.4rem;
+}
+
+.Reebok-deta {
+    padding: 3rem 0 0 0;
+
+}
+
+.Zig h6 {
+    font-size: 1.6rem;
+    color: grey;
+    display: inline-block;
+    padding: 0 2rem;
+}
+
+.BRISA h5 {
+    font-size: 2.4rem;
+}
+
+.Zig {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0.5rem;
+}
+
+#Match .box {
+    height: 1.6rem;
+    width: 1.6rem;
+    background-color: #A8DBA8;
+    display: inline-block;
+    border-radius: 0.2rem;
+}
+
+#Match .box1 {
+    height: 1.6rem;
+    width: 1.6rem;
+    background-color: #D5CE9D;
+    display: inline-block;
+    border-radius: 0.2rem;
+}
+
+#Match .box2 {
+    height: 1.6rem;
+    width: 1.6rem;
+    background-color: #7F7C74;
+    display: inline-block;
+    border-radius: 0.2rem;
+}
+
+#Match .box3 {
+    height: 1.6rem;
+    width: 1.6rem;
+    background-color: #000C22;
+    display: inline-block;
+    border-radius: 0.2rem;
+}
+
+.Reebok-wark {
+    padding: 9rem 3rem 0rem 5rem;
+}
+
+/* ************************************************************* */
+
+/* *******************************footer****************************** */
+footer {
+    padding: 50rem 0 0 0;
+}
+
+
+footer .container {
+    max-width: 1757px;
+}
+
+
+.footer-deta h3 {
+    font-size: 2.4rem;
+}
+
+.footer-deta h4 {
+    font-size: 3.6rem;
+    max-width: 481px;
+}
+
+.get {
+    padding: 3rem 0;
+}
+
+.footer-deta input {
+    font-size: 2.4rem;
+    border: none;
+
+}
+
+.footer-deta a {
+    font-size: 2.4rem;
+    color: black;
+}
+
+
+
+
+
+
+.BESART {
+    padding: 3rem 0;
+}
+
+.BESART-d {
+    padding: 0 0 0 5rem;
+}
+
+.BESART-d h4 {
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+.Followicn i {
+    color: black;
+    font-size: 2.5rem;
+}
+
+.HELP {
+    justify-content: space-between;
+}
+
+.BESART-d .Followicn {
+    list-style: none;
+    display: flex;
+    column-gap: 4rem;
+    padding: 2rem 0;
+}
+
+
+.HELPdeta h2 {
+    font-size: 1.8rem;
+    color: gray;
+    padding: 1rem 0;
+}
+
+.HELPdeta ul li a {
+    color: #000;
+    font-size: 1.8rem;
+}
+
+.HELPdeta img {
+    padding: 0.5rem 0;
+}
+
+.BESART .option {
+    font-size: 1.8rem;
+    border: none;
+    padding: 5rem 0 0 5rem;
+}
+
+.option select {
+    border: none;
+}
+
+.option {
+    display: flex;
+}
+
+.option h3 {
+    font-size: 1.6rem;
+    color: gray;
+    padding: 1rem;
+}
+
+/* ************************************************************* */
